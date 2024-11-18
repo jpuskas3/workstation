@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Try Serve</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="webstation.css">
+</head>
+<body>
+  
+<!-- Header -->
+<div class="headerBlock" title="header block present">
+ <div class="header" title="Dash Header">
+  <button id="button1">Dash</button>
+  <button id="button2">Labs</button>
+  <button id="button3">Library</button>
+  <button id="button4">Mobile</button>
+ </div>
+</div>
+  
+<!-- Left Sidebar -->
+<div class="leftside" title="Left Sidebar">
+  <div class="sidebar-content">
+    <p><b>Left Sidebar: Contents</b></p>
+  </div>
+</div>
+
+<!-- Outer Main Wrapper -->
+<div class="main" title="Main Content Area">
+
+<!-- Services (Face 1) Content Wrapper -->
+  <div class="face face1" title="Face 1: Dashboard">
+    <div class="body1" title="Body 1: Dashboard Content">
+      <iframe id="iframe1" src="dash_profile.html" style="width: 100%; height: 100%; border-radius: 10px;" frameborder="0"></iframe>
+    </div>
+    <div class="footer1" title="Footer 1: Services Footer">
+      <div class="footer-links">
+        <button target="iframe1" onclick="changeIframe1('dash_profile.html')">Profile</button>
+        <button target="iframe1" onclick="changeIframe1('dash_office.html')">Office</button>
+        <button target="iframe1" onclick="changeIframe1('dash_networks.html')">Networks</button>
+        <button target="iframe1" onclick="changeIframe1('dash_settings.html')">Settings</button>
+      </div>
+    </div>
+  </div>
+
+<!-- Server Labs (Face 2) Content Wrapper -->
+  <div class="face face2" title="Face 2: Server Labs">
+    <div class="body2" title="Body 2: Server Labs Content">
+      <iframe id="iframe2" src="labs.html" style="width: 100%; height: 100%; border-radius: 10px;" frameborder="0"></iframe>
+    </div>
+    <div class="footer2" title="Footer 2: Server Labs Footer">
+      <div class="footer-links">
+        <button target="iframe2" onclick="changeIframe2('labs.html')">Labs</button>
+        <button target="iframe2" onclick="changeIframe2('lab_outputs.html')">Outputs</button>
+        <button target="iframe2" onclick="changeIframe2('lab_actions.html')">Actions</button>
+      </div>
+    </div>
+  </div>
+
+<!-- Configure Services (Face 3) Content Wrapper -->
+  <div class="face face3" title="Face 3: Configure Services">
+    <div class="body3" title="Body 3: Configure Services Content">
+      <iframe id="iframe3" src="library.html" style="width: 100%; height: 100%; border-radius: 10px;" frameborder="0"></iframe>
+    </div>
+    <div class="footer3" title="Footer 3: Library Footer">
+      <div class="footer-links">
+        <button target="iframe3" onclick="changeIframe3('library.html')">Library</button>
+        <button target="iframe3" onclick="changeIframe3('lib_volumes.html')">Volumes</button>
+        <button target="iframe3" onclick="changeIframe3('lib_actions.html')">Actions</button>
+      </div>
+    </div>
+  </div>
+
+<!-- Mobile App (Face 4) Content Wrapper -->
+  <div class="face face4" title="Face 4: Mobile Labs">
+    <div class="body4" title="Body 4: Mobile Labs Content">
+      <iframe id="iframe4" src="mobile.html" style="width: 100%; height: 100%; border-radius: 10px;" frameborder="0"></iframe>
+    </div>
+    <div class="footer4" title="Footer 4: Mobile Labs Footer">
+      <div class="footer-links">
+        <button target="iframe4" onclick="changeIframe4('mobile.html')">Mobile</button>
+        <button target="iframe4" onclick="changeIframe4('mobile_download.html')">App Store</button>
+        <button target="iframe4" onclick="changeIframe4('mobile_config.html')">Configure</button>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+<!-- Right Sidebar -->
+<div class="rightside" title="Right Sidebar">
+  <div class="sidebar-content">
+    <p>Right Sidebar: Contents</p>
+  </div>
+</div>
+
+<script>
+  // Function to change iframe source
+  function changeIframe1(src) {
+  document.getElementById('iframe1').src = src;
+  }
+  function changeIframe2(src) {
+  document.getElementById('iframe2').src = src;
+  }
+  function changeIframe3(src) {
+  document.getElementById('iframe3').src = src;
+  }
+  function changeIframe4(src) {
+  document.getElementById('iframe4').src = src;
+  }
+  
+  // Set the default display (Face 1 loaded on page load)
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.face1').style.display = 'flex';
+  });
+
+  // Function to change faces
+  function showFace(faceNumber) {
+    // Hide all faces
+    document.querySelector('.face1').style.display = 'none';
+    document.querySelector('.face2').style.display = 'none';
+    document.querySelector('.face3').style.display = 'none';
+    document.querySelector('.face4').style.display = 'none';
+   
+    // Show the selected face
+    document.querySelector('.face' + faceNumber).style.display = 'flex';
+  }
+
+  // Event listeners for buttons
+  document.getElementById('button1').addEventListener('click', function() {
+    showFace(1);
+  });
+
+  document.getElementById('button2').addEventListener('click', function() {
+    showFace(2);
+  });
+
+  document.getElementById('button3').addEventListener('click', function() {
+    showFace(3);
+  });
+
+  document.getElementById('button4').addEventListener('click', function() {
+    showFace(4);
+  });
+</script>
+
+</body>
+</html>
