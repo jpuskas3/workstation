@@ -208,8 +208,7 @@ body {
   bottom: 0;
   left: 15vw;
   right: 15vw;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  overflow: hidden;
 }
   
       /*Face 2 - Server Labs*/
@@ -247,8 +246,7 @@ body {
   bottom: 0;
   left: 15vw;
   right: 15vw;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
       /*Face 3 - Configure Dash*/
@@ -286,8 +284,7 @@ body {
   bottom: 0;
   left: 15vw;
   right: 15vw;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
       /*Face 4 - Mobile Labs*/
@@ -325,8 +322,7 @@ body {
   bottom: 0;
   left: 15vw;
   right: 15vw;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
       /*Face 5 - About*/
@@ -408,7 +404,7 @@ button.sidebar-content {
 }
 .footer-links {
   /*justify-content: space-around;*/
-  display: inline-block;
+  display: flex;
   width: 600px;
   height: 65px;
   background-color: hsla(220, 5%, 70%, 1);
@@ -416,16 +412,21 @@ button.sidebar-content {
   align-items: center;
   box-sizing: border-box;
   margin-right: auto;
+  position: fixed;
+  bottom: 0;
+  padding-right: 7%;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 .footer-links button {
   color: white;
   text-decoration: none;
   width: 100px;
   height: 40px;
-  margin: auto;
+  margin-left: 12%;
+  margin-right: auto;
   background-color: #333;
   align-items: center;
-  text-align: center;
   padding: 10px 20px;
   top: 10px;
 
