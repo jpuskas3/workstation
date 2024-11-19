@@ -35,6 +35,6 @@ echo "making executable all workstation directory files"
 sudo chmod +x mom.sh butler.sh getrichquick.sh intro.sh eldenring.sh asem app_gui.py scraper_gui.py app.py scraper.py
 echo ""
 sleep 1
-echo "if a file is moved, it maintains the owner's permissions, if it is copied new executable permissions must be re-established for now"
+echo "if a file is moved, it maintains the owner's permissions, if it is copied new executable permissions must be re-established"
 echo "That's all. Should work now"
 exit
