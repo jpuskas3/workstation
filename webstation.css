@@ -423,7 +423,7 @@ button.sidebar-content {
   text-align: center;
   align-items: center;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 .footer-links button {
   color: white;
@@ -435,7 +435,7 @@ button.sidebar-content {
   background-color: #333;
   align-items: center;
   text-align: center;
-  padding: 10px 30px;
+  padding: 10px;
 }
 .footer-links button:hover {
   background-color: #666;
