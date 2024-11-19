@@ -86,6 +86,7 @@ body {
   margin-left: 12%;
   margin-right: auto;
   align-items: center;
+  border: 5px solid black;
 }
 .header button:hover {
   background-color: #666;
