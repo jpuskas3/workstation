@@ -320,7 +320,7 @@ body {
   top: 65px;
 }
 .footer4 {
-  background-color: hsla(120, 5%, 70%, 1);
+    background-color: hsla(120, 5%, 70%, 1);
   justify-content: space-around;
   align-items: center;
   text-align: center;
