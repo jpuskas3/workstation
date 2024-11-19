@@ -422,19 +422,18 @@ button.sidebar-content {
   text-align: center;
   align-items: center;
   box-sizing: border-box;
-  padding-right: 50px;
 }
 .footer-links button {
   color: white;
   text-decoration: none;
   width: 100px;
   height: 40px;
-  margin-left: 5%;
-  margin-right: 4.5%;
+  margin-left: 25px;
+  margin-right: 20px;
   background-color: #333;
   align-items: center;
   text-align: center;
-  /*padding: 10px;*/
+  padding: 20px;
 }
 .footer-links button:hover {
   background-color: #666;
