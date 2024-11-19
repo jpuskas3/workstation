@@ -415,8 +415,7 @@ button.sidebar-content {
   text-align: center;
   align-items: center;
   box-sizing: border-box;
-  position: fixed;
-  left: 20%;
+  margin-left: 20%;
 }
 .footer-links button {
   color: white;
