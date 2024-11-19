@@ -4,16 +4,6 @@ name=$name
 age=$age
 compliment=$compliment
 
-#Setting up virtual environment
-echo "try to turn on the virtual environment (ENTER)"
-read
-cd
-cd workstation
-source venv/bin/activate
-echo "..."
-echo "is the venv active?"
-read
-
 echo "Who are you?"
 read name
 #listen for $name from recorded user framework on external file that manages the value of "global" variables for users
