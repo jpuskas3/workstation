@@ -408,7 +408,7 @@ button.sidebar-content {
 }
 .footer-links {
   /*justify-content: space-around;*/
-  /*display: flex;*/
+  display: inline-block;
   width: 600px;
   height: 65px;
   background-color: hsla(220, 5%, 70%, 1);
@@ -428,7 +428,7 @@ button.sidebar-content {
   text-align: center;
   padding: 10px 20px;
   top: 10px;
-  display: flex;
+
 }
 .footer-links button:hover {
   background-color: #666;
