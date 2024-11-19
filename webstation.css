@@ -422,6 +422,7 @@ button.sidebar-content {
   text-decoration: none;
   width: 100px;
   height: 40px;
+  display: flex;
   margin-left: 50px;
   margin-right: auto;
   background-color: #333;
