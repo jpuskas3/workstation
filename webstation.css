@@ -239,7 +239,6 @@ body {
 }
 .footer2 {
   background-color: hsla(120, 5%, 70%, 1);
-  justify-content: space-around;
   align-items: center;
   text-align: center;
   box-sizing: border-box;
@@ -280,7 +279,6 @@ body {
 }
 .footer3 {
   background-color: hsla(120, 5%, 70%, 1);
-  justify-content: space-around;
   align-items: center;
   text-align: center;
   box-sizing: border-box;
@@ -320,8 +318,7 @@ body {
   top: 65px;
 }
 .footer4 {
-    background-color: hsla(120, 5%, 70%, 1);
-  justify-content: space-around;
+  background-color: hsla(120, 5%, 70%, 1);
   align-items: center;
   text-align: center;
   box-sizing: border-box;
