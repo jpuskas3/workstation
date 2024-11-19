@@ -414,7 +414,7 @@ button.sidebar-content {
   margin-right: auto;
   position: fixed;
   bottom: 0;
-  padding-right: 7%;
+  padding-right: 20%;
   overflow-x: scroll;
   overflow-y: hidden;
 }
@@ -423,7 +423,7 @@ button.sidebar-content {
   text-decoration: none;
   width: 100px;
   height: 40px;
-  margin-left: 4%;
+  margin-left: 12%;
   margin-right: auto;
   background-color: #333;
   align-items: center;
