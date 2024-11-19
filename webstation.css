@@ -415,13 +415,14 @@ button.sidebar-content {
   margin-right: 0.5%;
 }
 .footer-links {
-  display: flex;
+  /*display: flex;*/
   width: 600px;
   height: 65px;
   background-color: hsla(220, 5%, 70%, 1);
   text-align: center;
   align-items: center;
   box-sizing: border-box;
+  padding-right: 50px;
 }
 .footer-links button {
   color: white;
