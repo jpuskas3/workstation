@@ -423,6 +423,7 @@ button.sidebar-content {
   text-align: center;
   align-items: center;
   box-sizing: border-box;
+  left: 0;
 }
 .footer-links button {
   color: white;
