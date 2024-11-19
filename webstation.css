@@ -197,7 +197,7 @@ body {
 }
 .footer1 {
   background-color: hsla(120, 5%, 70%, 1);
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   box-sizing: border-box;
