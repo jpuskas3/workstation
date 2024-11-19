@@ -405,7 +405,7 @@ button.sidebar-content {
 .footer-links {
   /*justify-content: space-around;*/
   display: flex;
-  width: 100%;
+  width: 70%;
   height: 65px;
   background-color: hsla(220, 5%, 70%, 1);
   text-align: center;
