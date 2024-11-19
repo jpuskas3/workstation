@@ -181,6 +181,7 @@ body {
   left: 15vw;
   position: fixed;
   overflow-x: scroll;
+  overflow-y: hidden;
 }
 .body1 {
   flex: 1;
@@ -414,7 +415,8 @@ button.sidebar-content {
   text-align: center;
   align-items: center;
   box-sizing: border-box;
-  margin-right: 15%;
+  position: fixed;
+  left: 20%;
 }
 .footer-links button {
   color: white;
