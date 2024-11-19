@@ -415,7 +415,8 @@ button.sidebar-content {
   margin-right: 0.5%;
 }
 .footer-links {
-  /*display: flex;*/
+  
+  display: flex;
   width: 600px;
   height: 65px;
   background-color: hsla(220, 5%, 70%, 1);
