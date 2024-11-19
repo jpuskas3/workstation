@@ -415,7 +415,7 @@ button.sidebar-content {
   margin-right: 0.5%;
 }
 .footer-links {
-  /*justify-content: space-around;*/
+  justify-content: space-around;
   display: flex;
   width: 600px;
   height: 65px;
@@ -423,7 +423,6 @@ button.sidebar-content {
   text-align: center;
   align-items: center;
   box-sizing: border-box;
-  left: 0;
 }
 .footer-links button {
   color: white;
