@@ -435,6 +435,7 @@ button.sidebar-content {
   align-items: center;
   text-align: center;
   padding: 20px;
+  top: 10%;
 }
 .footer-links button:hover {
   background-color: #666;
