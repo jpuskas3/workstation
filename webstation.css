@@ -197,6 +197,7 @@ body {
 }
 .footer1 {
   background-color: hsla(120, 5%, 70%, 1);
+  justify-content: center;
   align-items: center;
   text-align: center;
   box-sizing: border-box;
@@ -425,7 +426,7 @@ button.sidebar-content {
   background-color: #333;
   align-items: center;
   text-align: center;
-  padding: 10px 30px;
+  padding: 10px 20px;
   top: 10px;
 }
 .footer-links button:hover {
