@@ -423,7 +423,6 @@ button.sidebar-content {
   text-align: center;
   align-items: center;
   box-sizing: border-box;
-  overflow-y: hidden;
 }
 .footer-links button {
   color: white;
