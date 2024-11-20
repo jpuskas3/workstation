@@ -211,7 +211,7 @@ body {
   overflow: hidden;
 }
   
-      /*Face 2 - Server Labs*/
+      /*Face 2 - Library*/
 .face2 {
   background-color: black;
   display: none; /* Hidden by default */
@@ -249,7 +249,7 @@ body {
   overflow: hidden;
 }
 
-      /*Face 3 - Configure Dash*/
+      /*Face 3 - Networks*/
 .face3 {
   background-color: black;
   display: none; /* Hidden by default */
@@ -287,7 +287,7 @@ body {
   overflow: hidden;
 }
 
-      /*Face 4 - Mobile Labs*/
+      /*Face 4 - Media*/
 .face4 {
   background-color: black;
   display: none; /* Hidden by default */
@@ -325,7 +325,7 @@ body {
   overflow: hidden;
 }
 
-      /*Face 5 - About*/
+      /*Face 5 - Maps*/
 .face5 {
   background-color: black;
   display: none; /* Hidden by default */
@@ -349,7 +349,62 @@ body {
   left: 15vw;
   right: 15vw;
 }
-
+.footer5 {
+  background-color: hsla(120, 5%, 70%, 1);
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  width: 70vw;
+  height: 65px;
+  position: fixed;
+  bottom: 0;
+  left: 15vw;
+  right: 15vw;
+  overflow: hidden;
+}
+     /*BodyDiv: Main-Faces 6: Labs*/
+.face6 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  left: 15vw;
+  position: fixed;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.body6 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: hsla(120, 5%, 70%, 1); /* */
+  position: fixed;
+  left: 15vw;
+  right:15vw;
+  bottom: 65px;
+  top: 65px;
+}
+.footer6 {
+  background-color: hsla(120, 5%, 70%, 1);
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  width: 70vw;
+  height: 65px;
+  position: fixed;
+  bottom: 0;
+  left: 15vw;
+  right: 15vw;
+  overflow: hidden;
+}
+  
     /*BodyDiv: Right Sidebar*/
 .rightside {
   width: 15vw; /* 15% of the viewport width */
