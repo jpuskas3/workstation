@@ -136,6 +136,13 @@
   function changeIframe4(src) {
   document.getElementById('iframe4').src = src;
   }
+  function changeIframe5(src) {
+  document.getElementById('iframe5').src = src;
+  }
+  
+  function changeIframe6(src) {
+  document.getElementById('iframe6').src = src;
+  }
   
   // Set the default display (Face 1 loaded on page load)
   document.addEventListener('DOMContentLoaded', function() {
@@ -149,6 +156,8 @@
     document.querySelector('.face2').style.display = 'none';
     document.querySelector('.face3').style.display = 'none';
     document.querySelector('.face4').style.display = 'none';
+    document.querySelector('.face5').style.display = 'none';
+    document.querySelector('.face6').style.display = 'none';
    
     // Show the selected face
     document.querySelector('.face' + faceNumber).style.display = 'flex';
@@ -169,6 +178,14 @@
 
   document.getElementById('button4').addEventListener('click', function() {
     showFace(4);
+  });
+  
+  document.getElementById('button5').addEventListener('click', function() {
+    showFace(5);
+  });
+
+  document.getElementById('button6').addEventListener('click', function() {
+    showFace(6);
   });
 </script>
 
