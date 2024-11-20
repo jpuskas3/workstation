@@ -12,9 +12,11 @@
 <div class="headerBlock" title="header block present">
  <div class="header" title="Dash Header">
   <button id="button1">Dash</button>
-  <button id="button2">Labs</button>
-  <button id="button3">Library</button>
-  <button id="button4">Mobile</button>
+  <button id="button2">Library</button>
+  <button id="button3">Labs</button>
+  <button id="button4">Media</button>
+  <button id="button5">Maps</button>
+  <button id="button6">Networks</button>
  </div>
 </div>
   
@@ -28,7 +30,7 @@
 <!-- Outer Main Wrapper -->
 <div class="main" title="Main Content Area">
 
-<!-- Services (Face 1) Content Wrapper -->
+<!-- Dash (Face 1) Content Wrapper -->
   <div class="face face1" title="Face 1: Dashboard">
     <div class="body1" title="Body 1: Dashboard Content">
       <iframe id="iframe1" src="dash_profile.html" style="width: 100%; height: 100%; border-radius: 10px;" frameborder="0"></iframe>
@@ -37,54 +39,80 @@
       <div class="footer-links">
         <button target="iframe1" onclick="changeIframe1('dash_profile.html')">Profile</button>
         <button target="iframe1" onclick="changeIframe1('dash_office.html')">Office</button>
-        <button target="iframe1" onclick="changeIframe1('dash_networks.html')">Networks</button>
         <button target="iframe1" onclick="changeIframe1('dash_settings.html')">Settings</button>
       </div>
     </div>
   </div>
 
-<!-- Server Labs (Face 2) Content Wrapper -->
-  <div class="face face2" title="Face 2: Server Labs">
-    <div class="body2" title="Body 2: Server Labs Content">
-      <iframe id="iframe2" src="labs.html" style="width: 100%; height: 100%; border-radius: 10px;" frameborder="0"></iframe>
+<!-- Library (Face 2) Content Wrapper -->
+  <div class="face face2" title="Face 2: Configure Services">
+    <div class="body2" title="Body 2: Configure Services Content">
+      <iframe id="iframe2" src="library.html" style="width: 100%; height: 100%; border-radius: 10px;" frameborder="0"></iframe>
     </div>
-    <div class="footer2" title="Footer 2: Server Labs Footer">
+    <div class="footer2" title="Footer 2: Library Footer">
       <div class="footer-links">
-        <button target="iframe2" onclick="changeIframe2('labs.html')">Labs</button>
-        <button target="iframe2" onclick="changeIframe2('lab_outputs.html')">Outputs</button>
-        <button target="iframe2" onclick="changeIframe2('lab_actions.html')">Actions</button>
+        <button target="iframe2" onclick="changeIframe2('library.html')">Library</button>
+        <button target="iframe2" onclick="changeIframe2('lib_volumes.html')">Volumes</button>
+        <button target="iframe2" onclick="changeIframe2('lib_actions.html')">Actions</button>
       </div>
     </div>
   </div>
 
-<!-- Configure Services (Face 3) Content Wrapper -->
-  <div class="face face3" title="Face 3: Configure Services">
-    <div class="body3" title="Body 3: Configure Services Content">
-      <iframe id="iframe3" src="library.html" style="width: 100%; height: 100%; border-radius: 10px;" frameborder="0"></iframe>
+<!-- Networks (Face 3) Content Wrapper -->
+  <div class="face face3" title="Face 3: Networks">
+    <div class="body3" title="Body 3: Networks Content">
+      <iframe id="iframe3" src="networks.html" style="width: 100%; height: 100%; border-radius: 10px;" frameborder="0"></iframe>
     </div>
-    <div class="footer3" title="Footer 3: Library Footer">
+    <div class="footer3" title="Footer 3: Networks Footer">
       <div class="footer-links">
-        <button target="iframe3" onclick="changeIframe3('library.html')">Library</button>
-        <button target="iframe3" onclick="changeIframe3('lib_volumes.html')">Volumes</button>
-        <button target="iframe3" onclick="changeIframe3('lib_actions.html')">Actions</button>
+        <button target="iframe3" onclick="changeIframe3('networks.html')">Networks</button>
+        <button target="iframe3" onclick="changeIframe3('lab_outputs.html')"new_win"</button>
+        <button target="iframe3" onclick="changeIframe3('lab_actions.html')">new_win"</button>
       </div>
     </div>
   </div>
 
-<!-- Mobile App (Face 4) Content Wrapper -->
-  <div class="face face4" title="Face 4: Mobile Labs">
-    <div class="body4" title="Body 4: Mobile Labs Content">
-      <iframe id="iframe4" src="mobile.html" style="width: 100%; height: 100%; border-radius: 10px;" frameborder="0"></iframe>
+<!-- Media (Face 4) Content Wrapper -->
+  <div class="face face4" title="Face 4: Media">
+    <div class="body4" title="Body 4: Media Content">
+      <iframe id="iframe4" src="media.html" style="width: 100%; height: 100%; border-radius: 10px;" frameborder="0"></iframe>
     </div>
-    <div class="footer4" title="Footer 4: Mobile Labs Footer">
+    <div class="footer4" title="Footer 4: Media Footer">
       <div class="footer-links">
-        <button target="iframe4" onclick="changeIframe4('mobile.html')">Mobile</button>
-        <button target="iframe4" onclick="changeIframe4('mobile_download.html')">App Store</button>
-        <button target="iframe4" onclick="changeIframe4('mobile_config.html')">Configure</button>
+        <button target="iframe4" onclick="changeIframe4('media.html')">Media</button>
+        <button target="iframe4" onclick="changeIframe4('media_sources.html')">Sources</button>
+        <button target="iframe4" onclick="changeIframe4('media_options.html')">Options</button>
       </div>
     </div>
   </div>
-  
+
+<!-- Maps (Face 5) Content Wrapper -->
+  <div class="face face5" title="Face 5: Maps">
+    <div class="body5" title="Body 5: Maps Content">
+      <iframe id="iframe5" src="maps.html" style="width: 100%; height: 100%; border-radius: 10px;" frameborder="0"></iframe>
+    </div>
+    <div class="footer5" title="Footer 5: Maps Footer">
+      <div class="footer-links">
+        <button target="iframe5" onclick="changeIframe5('maps.html')">Maps</button>
+        <button target="iframe5" onclick="changeIframe5('map_overlays.html')">Overlays</button>
+        <button target="iframe5" onclick="changeIframe5('map_keys.html')">Key</button>
+      </div>
+    </div>
+  </div>
+
+<!-- Server Labs (Face 6) Content Wrapper -->
+  <div class="face face6" title="Face 6: Server Labs">
+    <div class="body6" title="Body 6: Server Labs Content">
+      <iframe id="iframe6" src="labs.html" style="width: 100%; height: 100%; border-radius: 10px;" frameborder="0"></iframe>
+    </div>
+    <div class="footer6" title="Footer 6: Server Labs Footer">
+      <div class="footer-links">
+        <button target="iframe6" onclick="changeIframe6('labs.html')">Labs</button>
+        <button target="iframe6" onclick="changeIframe6('lab_outputs.html')">Outputs</button>
+        <button target="iframe6" onclick="changeIframe6('lab_actions.html')">Actions</button>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- Right Sidebar -->
